@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<form>
+<label for="name">first name</label>
+<input type="text" name="username" placeholder="username">
+<label>email id</label>
+<br>
+<input type="email" name="email">
+<input type="password" name="password" placeholder="password" required minlength="5" maxlength="14" title="Password dost not exist">
+<p>Select yout skill/skills </p>
+<div>
+<input type="checkbox" name="male" id="male">
+<label>songs</label>
+</div>
+<div>
+	<input type="checkbox" name="female" id="female">
+	<label>sports</label>
+</div>
+<br>
+<p>Slect your gender</p>
+<div>
+	<label><input type="radio" name="gender" value="male"> Male</label>
+	<label><input type="radio" name="gender" value="female"> Female</label>
+</div>
+<label for="country">Select the country:</label>
+<select name="country" id="country">
+	<option>Select a country</option>
+	<option>usa</option>
+	<option>singapore</option>
+	<option>china</option>
+	<option>JAPAN</option>
+	<option>russia</option>
+	<option>india</option>
+    <option>australia</option>
+</select>
+<label for="myBrowser">Choose a browser from this list:</label>
+<input list="browsers"  name="myBrowser" />
+<datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Internet Explorer">
+  <option value="Opera">
+  <option value="Safari">
+  <option value="Microsoft Edge">
+  	<option>Torr</option>
+</datalist>
+<input type="submit" name="submit">
+</form>
+</body>
+</html>
